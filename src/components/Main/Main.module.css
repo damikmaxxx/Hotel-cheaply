@@ -1,0 +1,30 @@
+main{
+	flex: 1 1 auto;
+}
+
+.hotelAnim-enter {
+	opacity: 0;
+	color:red;
+	background: black;
+}
+.hotelAnim-enter-active {
+	color:red;
+	opacity: 1;
+	transition: opacity 15000ms ease-in;
+	background: black;
+}
+.hotelAnim-exit {
+	opacity: 1;
+	color:red;
+}
+.hotelAnim-exit-active {
+	color:red !important;
+	opacity: 0;
+	transition: opacity 15000ms ease-in;
+}
+  
+@media (max-width: 767px) {
+	.name-city{
+		margin:20px 0;
+	}
+}

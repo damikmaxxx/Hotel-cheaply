@@ -1,0 +1,29 @@
+.settings{
+	border:1px solid #e7e7e9;
+	margin-bottom:10px;
+	
+}
+.settingsName{
+	font-weight:bold;
+	padding:5px;
+	background-color: #E7EAED;
+}
+.settingsChoice{
+	padding:10px;
+	list-style-type: none;
+	font-size:15px;
+}
+.settingsChoice input{
+	margin-right:5px;
+}
+@media (max-width: 998px) {
+	.settingsChoice{
+		font-size:12px;
+	}
+}
+@media (max-width: 768px) {
+	.settingsChoice li {
+		font-size:12px;
+		margin:5px 0px;
+	}
+}

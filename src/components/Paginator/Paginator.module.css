@@ -1,0 +1,21 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button{
+    display: block;
+    background: white;
+    margin:10px;
+    width:30px;
+    height:30px;
+    transition: .2s;
+}
+.pagination button:hover{
+    background:black;
+    color:white;
+}
+.pagination .activeButton {
+    background:black;
+    color:white;
+}
